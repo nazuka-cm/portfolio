@@ -44,8 +44,18 @@ main, .site-footer, .site-header {
 }
 
 .hero { padding: 96px 0 72px; }
+.hero-text { max-width: 420px; }
 .hero h1 { font-size: 44px; font-weight: 400; margin: 0 0 16px; letter-spacing: -0.01em; }
 .hero p { margin: 0; color: var(--muted); }
+.hero-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: 70% 50%;
+  margin-top: 56px;
+  background: var(--placeholder);
+}
 
 .section { margin-top: 72px; }
 h2 {
